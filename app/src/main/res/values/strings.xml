@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">SOSVN</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="button.finish">FINISH</string>
+    <string name="button.next">NEXT</string>
+    <string name="button.skip">SKIP</string>
+    <string name="text1">The museum is housed in the Louvre Palace, originally built as a fortress in the late 12th century…</string>
+    <string name="text2">Gwanghwamun is the main and largest gate of Gyeongbokgung Palace, in Jongno-gu, Seoul, South Korea.</string>
+    <string name="text3">Tower Bridge is a combined bascule and suspension bridge in London built in 1886–1894.</string>
+    <string name="text4">The Temple of Heaven is an imperial complex of religious buildings situated in the southeastern part…</string>
+    <string name="text5">The Aegean Islands are within the sea and some bound it on its southern periphery…</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="pick_your_contry">Select your country</string>
+    <string name="send_sms_notice">We will send you a text message with a verification code.</string>
+    <string name="next">Next</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="verification_message">Please enter the verification code \n sent to (+84) 1629828750</string>
+    <string name="finish">Save</string>
+    <string name="country">Country</string>
+    <string name="viet_nam">VIET NAM</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="birthday">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="insurance_policy_number">Insurance policy no.</string>
+    <string name="ice">ICE phone number</string>
+    <string name="blood_type">Blood type</string>
+    <string name="blood_type_hint">Select your blood type</string>
+    <string name="email">Email</string>
+    <string name="resend">Resend</string>
+    <string name="check">Incorrect</string>
+    <string name="severity">Severity?</string>
+    <string name="high">High</string>
+    <string name="normal">Normal</string>
+    <string name="slight">Slight</string>
+    <string name="medium">Medium</string>
+    <string name="what_happened">What happened?</string>
+    <string name="burn">Burn</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="bleed">Bleed</string>
+    <string name="fracture">Fracture</string>
+    <string name="cancel">Cancel</string>
+    <string name="find_title">Find</string>
+    <string name="call_emergency">Call Emergency</string>
+    <string name="report_title">Report</string>
+    <string name="find_mess">We will suggest the nearest quality hospital in the area.</string>
+    <string name="call_mess">Directly contacts with the english-speaking emergency line.</string>
+    <string name="report_mess">Generate a bilingual report to pass the language barrier on the street.</string>
+
+    <!--Gmaps API -->
+    <string name="google_maps_api_key">AIzaSyCm5rqt2VSS4dLX4osZViN2Z2kt1t6k1NI</string>
+    <string name="summary_english">English</string>
+    <string name="summary_vietnamese">Vietnamese</string>
+    <string name="find_hospital">Find</string>
+    <string name="call_now_title">Press to call the nearest English-speaking hospital in the area</string>
+    <string name="Incorrect_code">The code is incorrect!</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="save">Save</string>
+    <string name="nationality">Nationality</string>
+    <string name="med_info">Medical conditions</string>
+    <string name="profile_main">Profile</string>
+    <string name="choose_country">Select your country</string>
+    <string name="severity_high">Cirtical</string>
+    <string name="severity_low">Low</string>
+    <string name="severity_medium">Medium</string>
+    <string name="what_happened_accident">Accident</string>
+    <string name="what_happened_food_poisoning">Food poisoning</string>
+    <string name="what_happened_other_injury">Other injury</string>
+    <string name="where_is_it">Where does it hurt?</string>
+    <string name="where_is_it_sub">Touch the figure below to mark the locations of injuries or pain.</string>
+    <string name="medical">Medical information</string>
+    <string name="personal">Personal information</string>
+    <string name="nearby_hospitals">Hospitals Nearby</string>
+    <string name="password">Password</string>
+    <string name="password_repeat">Confirm password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="login">Login</string>
+    <string name="log_in">Already registered? \n Click to login</string>
+    <string name="creat_new_account">Create a new account</string>
+    <string name="clear_map">Clear</string>
+    <string name="call">Call</string>
+    <string name="directions">Directions</string>
+    <string name="log_out">Logout</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_registered">Already registered?</string>
+    <string name="report_summary">Summaary</string>
+    <string name="medical_info_section">Medical information</string>
+    <string name="report_first_name">First name:</string>
+    <string name="report_last_name">Last name:</string>
+    <string name="report_age">Age:</string>
+    <string name="report_nationality">Nationality:</string>
+    <string name="report_gender">Gender:</string>
+    <string name="report_ice">ICE:</string>
+    <string name="report_policy">Insurance no.:</string>
+    <string name="report_blood_type">Blood type:</string>
+    <string name="report_conditions">Medical conditions:</string>
+    <string name="report_type">Type:</string>
+    <string name="report_severity">Severity:</string>
+
+    <string name="report_first_name_vn">Tên:</string>
+    <string name="report_last_name_vn">Họ:</string>
+    <string name="report_age_vn">Tuổi:</string>
+    <string name="report_nationality_vn">Quốc gia:</string>
+    <string name="report_gender_vn">Giới tính:</string>
+    <string name="report_ice_vn">Số khẩn cấp:</string>
+    <string name="report_policy_vn">Số bảo hiểm:</string>
+    <string name="report_blood_type_vn">Nhóm máu:</string>
+    <string name="report_conditions_vn">Bệnh lí:</string>
+    <string name="report_type_vn">Loại:</string>
+    <string name="report_severity_vn">Mức độ:</string>
+
+    <string name="report_personal_info">PERSONAL INFORMATION</string>
+    <string name="report_medical_info">MEDICAL INFORMATION</string>
+    <string name="report_injury_info">INJURY</string>
+
+    <string name="report_personal_info_vn">Thông tin cá nhân</string>
+    <string name="report_medical_info_vn">Thông tin y tế</string>
+    <string name="report_injury_info_vn">Tình trạng bệnh</string>
+    <string name="press_to_call">Press to call</string>
+    <string name="call_title">Press to call</string>
+    <string name="press_to_call_sub">Automatically dials the hospital\'s english-speaking emergency line.</string>
+    <string name="call_intent">Call Now</string>
+
+
+    <string-array name="gender_array">       
+        <item>Male</item>
+               
+        <item>Female</item>
+           
+    </string-array>
+
+    <string-array name="blood_array">       
+        <item>A-</item>
+               
+        <item>A+</item>
+        <item>B-</item>
+               
+        <item>B+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+               
+        <item>0-</item>
+         
+        <item>0+</item>
+         
+    </string-array>
+    <string name="title_activity_profile">Profile</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="ice_name">ICE person name</string>
+    <string name="insurance_policy_number_company">Insurance company</string>
+</resources>

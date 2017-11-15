@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Main colors-->
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#d22f2f</color>
+    <color name="colorPrimaryLight">#feccd1</color>
+    <color name="colorAccent">#e6e6e6</color>
+
+    <!--Text colors-->
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorPrimaryTextInversed">#fefefe</color>
+    <color name="colorTextWarning">#F44336</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorLayoutBackground">#fefefe</color>
+
+    <color name="rating_background">#ff0022</color>
+    <color name="rating_text">@android:color/white</color>
+    <color name="body_filled">#ff000d</color>
+    <color name="body">#F7C68F</color>
+
+    <color name="idle">#e6e6e6</color>
+    <color name="severity_high_highlighted">@color/colorPrimary</color>
+    <color name="severity_medium_highlighted">@color/colorPrimary</color>
+    <color name="severity_slight_highlighted">@color/colorPrimary</color>
+    <color name="severity_normal_highlighted">@color/colorPrimary</color>
+    <color name="burn">@color/colorPrimary</color>
+    <color name="bleed">@color/colorPrimary</color>
+    <color name="fracture">@color/colorPrimary</color>
+
+    <color name="text_idle">@color/colorPrimaryText</color>
+    <color name="text_highlighted">@color/colorPrimaryTextInversed</color>
+    <color name="divider" >@color/colorDivider</color>
+    <color name="color_title">@color/colorPrimaryText</color>
+    
+    <color name="black">@android:color/black</color>
+    <color name="white">@android:color/white</color>
+    <color name="black_transparent">#14000000</color>
+    <color name="black_transparent_image">#46000000</color>
+    <color name="active_indicator">@android:color/white</color>
+    <color name="inactive_indicator">#4D000000</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_300">#e0e0e0</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="bg">#757575</color>
+</resources>

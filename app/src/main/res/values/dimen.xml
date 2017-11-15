@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="activity_half_margin">8dp</dimen>
+    <dimen name="indicator_size">8dp</dimen>
+    <dimen name="section_image_item">128dp</dimen>
+
+    <dimen name="marginSmall">8dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="marginExtra">64dp</dimen>
+    <dimen name="marginMedium">32dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="paddingEditText">8dp</dimen>
+    <dimen name="marginEditText">4dp</dimen>
+    <dimen name="paddingExtra">48dp</dimen>
+    <!--Text-->
+    <dimen name="text_heading_size">24sp</dimen>
+    <dimen name="text_subheading_size">18sp</dimen>
+    <dimen name="text_body_size">14sp</dimen>
+    <dimen name="divider">1sp</dimen>
+</resources>

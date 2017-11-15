@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginStart="@dimen/margin"
+    android:layout_marginEnd="@dimen/margin"
+    tools:scrollable="true"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/what_happened"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/text_heading_size" />
+    
+    
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <RadioButton
+            android:id="@+id/btn_type_accident"
+            android:layout_margin="@dimen/margin"
+            android:checked="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/paddingExtra"
+            android:paddingEnd="@dimen/paddingExtra"
+            android:paddingTop="@dimen/padding"
+            android:paddingBottom="@dimen/padding"
+            android:textSize="@dimen/text_subheading_size"
+            android:background="@drawable/selector_radio"
+            android:textColor="@color/colorPrimaryTextInversed"
+            android:gravity="center"
+            android:button="@android:color/transparent"
+            android:drawableTop="@drawable/ic_motorcycle"
+            android:drawablePadding="@dimen/paddingEditText"
+            android:text="@string/what_happened_accident" />
+
+        <RadioButton
+            android:id="@+id/btn_type_food_poisoning"
+            android:layout_margin="@dimen/margin"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/paddingExtra"
+            android:paddingEnd="@dimen/paddingExtra"
+            android:paddingTop="@dimen/padding"
+            android:paddingBottom="@dimen/padding"
+            android:textSize="@dimen/text_subheading_size"
+            android:gravity="center"
+            android:button="@android:color/transparent"
+            android:background="@drawable/selector_radio"
+            android:textColor="@color/colorPrimaryTextInversed"
+            android:drawableTop="@drawable/ic_cutlery"
+            android:drawablePadding="@dimen/paddingEditText"
+            android:text="@string/what_happened_food_poisoning" />
+
+        <RadioButton
+            android:id="@+id/btn_type_other_injury"
+            android:layout_margin="@dimen/margin"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/paddingExtra"
+            android:paddingEnd="@dimen/paddingExtra"
+            android:paddingTop="@dimen/padding"
+            android:paddingBottom="@dimen/padding"
+            android:textSize="@dimen/text_subheading_size"
+            android:background="@drawable/selector_radio"
+            android:textColor="@color/colorPrimaryTextInversed"
+            android:gravity="center"
+            android:button="@android:color/transparent"
+            android:drawableTop="@drawable/ic_warning"
+            android:drawablePadding="@dimen/paddingEditText"
+            android:text="@string/what_happened_other_injury" />
+        
+        
+    </RadioGroup>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

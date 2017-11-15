@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "926545232663",
+    "firebase_url": "https://sosdb-b96da.firebaseio.com",
+    "project_id": "sosdb-b96da",
+    "storage_bucket": "sosdb-b96da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926545232663:android:c62662e04e9e3cd2",
+        "android_client_info": {
+          "package_name": "com.coderschool.sosvn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926545232663-gj2jpunk884a03f11ro2n1dluvcq4s5f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coderschool.sosvn",
+            "certificate_hash": "9053d73775c31bedd9635e1e1a2a05c0cef82882"
+          }
+        },
+        {
+          "client_id": "926545232663-6rm651llogjdqgp8rmadl825rv6g01qh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coderschool.sosvn",
+            "certificate_hash": "acb266702dff3889fc5b17450c434c0e7f6f2c35"
+          }
+        },
+        {
+          "client_id": "926545232663-8n8vhnkhg39rmthdaqs7d0f9pjack51r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coderschool.sosvn",
+            "certificate_hash": "7c6f73d4468589f90e82db65017122389fe0737b"
+          }
+        },
+        {
+          "client_id": "926545232663-qmueh7j9vikrruv4qgjrhg78be6n5d37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLLQUMf7Q41tfBFKXuamVjqpSFcGU5ssc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926545232663-qmueh7j9vikrruv4qgjrhg78be6n5d37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926545232663:android:87fcb66cc6ca320a",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926545232663-jle0o4el9peil97v6vj2pt0o5jo6f00p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.quickstart.auth",
+            "certificate_hash": "7c6f73d4468589f90e82db65017122389fe0737b"
+          }
+        },
+        {
+          "client_id": "926545232663-qmueh7j9vikrruv4qgjrhg78be6n5d37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLLQUMf7Q41tfBFKXuamVjqpSFcGU5ssc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926545232663-qmueh7j9vikrruv4qgjrhg78be6n5d37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

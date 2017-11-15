@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginStart="@dimen/margin"
+    android:layout_marginEnd="@dimen/margin"
+    android:layout_marginBottom="@dimen/margin"
+    tools:scrollable="true"
+    android:weightSum="5"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/call_title"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/text_heading_size" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="@dimen/marginExtra"
+        android:layout_marginStart="@dimen/marginExtra"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/paddingEditText"
+        android:paddingBottom="@dimen/padding"
+        android:text="@string/press_to_call_sub"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/text_body_size" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:layout_height="0dp">
+
+        <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+            android:layout_margin="@dimen/margin"
+        android:layout_gravity="center_vertical|end"
+        android:src="@drawable/ic_right"
+        />
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="@dimen/margin"
+            android:layout_gravity="center_vertical|start"
+            android:src="@drawable/ic_left"
+            />
+
+        <ImageView
+            android:id="@+id/iv_call"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:padding="@dimen/paddingMid"
+            android:src="@drawable/ic_call_doctor" />
+
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/btn_call_intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/marginMedium"
+
+        android:background="@drawable/selector_button"
+        android:gravity="center"
+        android:text="@string/call_intent"
+        android:paddingStart="@dimen/paddingMid"
+        android:paddingEnd="@dimen/paddingMid"
+
+        android:textColor="@color/colorPrimaryTextInversed"
+        android:textSize="@dimen/text_subheading_size"
+
+        />
+
+</LinearLayout>

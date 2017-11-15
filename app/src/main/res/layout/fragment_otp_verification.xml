@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLayoutBackground"
+    android:paddingTop="@dimen/margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/VerifiText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:padding="@dimen/padding"
+        android:text="@string/verification_code"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/text_heading_size"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/VerifiText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:text="@string/verification_message"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/text_body_size" />
+
+    <TextView
+        android:id="@+id/text_incorrect"
+        style="@style/VerifiText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:text="@string/Incorrect_code"
+        android:textColor="@color/colorTextWarning"
+        android:textSize="@dimen/text_body_size"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/tv_first_code"
+            style="@style/NumberCodeText" />
+
+        <TextView
+            android:id="@+id/tv_second_code"
+            style="@style/NumberCodeText" />
+
+        <TextView
+            android:id="@+id/tv_third_code"
+            style="@style/NumberCodeText" />
+
+        <TextView
+            android:id="@+id/tv_fourth_code"
+            style="@style/NumberCodeText" />
+
+        <TextView
+            android:id="@+id/tv_fifth_code"
+            style="@style/NumberCodeText" />
+
+        <TextView
+            android:id="@+id/tv_sixth_code"
+            style="@style/NumberCodeText" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/marginMedium"
+        android:alignmentMode="alignBounds"
+        android:columnCount="3"
+        android:layoutDirection="rtl"
+        android:rowCount="3"
+        android:useDefaultMargins="false">
+
+        <TextView
+            android:id="@+id/tv_virtual_num_3"
+            style="@style/NumberVirtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="@color/colorPrimaryText" />
+
+        <TextView
+            android:id="@+id/tv_virtual_num_2"
+            style="@style/NumberVirtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textColor="@color/colorPrimaryText" />
+
+        <TextView
+            android:id="@+id/tv_virtual_num_1"
+            style="@style/NumberVirtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="1"
+            android:textColor="@color/colorPrimaryText" />
+
+
+        <TextView
+            android:id="@+id/tv_virtual_num_6"
+            style="@style/NumberVirtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textColor="@color/colorPrimaryText" />
+
+        <TextView
+            android:id="@+id/tv_virtual_num_5"
+            style="@style/NumberVirtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textColor="@color/colorPrimaryText" />
+
+        <TextView
+            android:id="@+id/tv_virtual_num_4"
+            style="@style/NumberVirtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textColor="@color/colorPrimaryText" />
+
+
+        <TextView
+            android:id="@+id/tv_virtual_num_9"
+            style="@style/NumberVirtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:textColor="@color/colorPrimaryText" />
+
+        <TextView
+            android:id="@+id/tv_virtual_num_8"
+            style="@style/NumberVirtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textColor="@color/colorPrimaryText" />
+
+        <TextView
+            android:id="@+id/tv_virtual_num_7"
+            style="@style/NumberVirtual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:textColor="@color/colorPrimaryText" />
+
+
+        <ImageView
+            android:id="@+id/fl_virtual_backspace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_backspace" />
+
+        <TextView
+            android:id="@+id/tv_virtual_num_0"
+            style="@style/NumberVirtual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/colorPrimaryText" />
+    </GridLayout>
+</LinearLayout>

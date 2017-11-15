@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view_hospital"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorLayoutBackground"
+    android:fadeScrollbars="false"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:scrollbarFadeDuration="0"
+
+        android:paddingEnd="@dimen/paddingMid"
+        android:paddingStart="@dimen/paddingMid"
+        android:paddingTop="@dimen/padding">
+
+
+        <belka.us.androidtoggleswitch.widgets.ToggleSwitch
+            android:id="@+id/switcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin"
+            android:background="@drawable/border_around"
+            android:textSize="16sp"
+            custom:activeBgColor="@color/colorPrimary"
+            custom:inactiveBgColor="@color/colorAccent"
+            custom:textToggleLeft="@string/summary_english"
+            custom:textToggleRight="@string/summary_vietnamese"
+            custom:toggleWidth="150dp" />
+
+
+        <!-- Personal information -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginEditText"
+            tools:text="PERSONAL INFORMATION"
+            android:id="@+id/tv_personal_info"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_body_size"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="@dimen/marginEditText"
+            android:background="@color/colorDivider" />
+
+        <!-- First name -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginEditText"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tv_first_name_key"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="First name:" />
+
+            <TextView
+                android:id="@+id/tv_first_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="Alexander" />
+
+        </LinearLayout>
+
+        <!--Last name -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginEditText"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tv_last_name_key"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="Last name:" />
+
+            <TextView
+                android:id="@+id/tv_last_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="Dostoyevsky" />
+
+        </LinearLayout>
+
+        <!--Age-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginEditText"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tv_age_key"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="Age:" />
+
+            <TextView
+                android:id="@+id/tv_age"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="25" />
+
+        </LinearLayout>
+
+        <!--Nationalty -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginEditText"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tv_nationality_key"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="Nationality:" />
+
+            <TextView
+                android:id="@+id/tv_nationality"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="Russia" />
+
+        </LinearLayout>
+
+        <!--Gender-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tv_gender_key"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="Gender:" />
+
+            <TextView
+                android:id="@+id/tv_gender"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="Male" />
+
+        </LinearLayout>
+
+
+        <!-- Medical information -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginEditText"
+            tools:text="@string/medical_info_section"
+            android:id="@+id/tv_medical_info"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_body_size"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="@dimen/marginEditText"
+            android:background="@color/colorDivider" />
+
+        <!-- ICE -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginEditText"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tv_ice_key"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="ICE:" />
+
+            <TextView
+                android:id="@+id/tv_ice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="+44192939481" />
+
+        </LinearLayout>
+
+        <!-- Policy number -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginEditText"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tv_policy_no_key"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="Insurance no.:" />
+
+            <TextView
+                android:id="@+id/tv_policy_no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="GB87KF9961" />
+
+        </LinearLayout>
+
+        <!-- Blood type -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginEditText"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tv_blood_type_key"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="Blood type:" />
+
+            <TextView
+                android:id="@+id/tv_blood_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="A+" />
+
+        </LinearLayout>
+
+        <!-- Medical conditions -->
+
+        <TextView
+            android:id="@+id/tv_conditions_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/text_body_size"
+            android:layout_marginBottom="@dimen/marginEditText"
+            tools:text="Medical conditions:" />
+
+        <TextView
+            android:id="@+id/tv_conditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:maxLines="4"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_body_size"
+            android:layout_marginBottom="@dimen/margin"
+            tools:text="Peanut allergy" />
+
+
+        <!-- Injury information -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginEditText"
+            android:id="@+id/tv_injury_info"
+            tools:text="INJURY"
+
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_body_size"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="@dimen/marginEditText"
+            android:background="@color/colorDivider" />
+
+        <!-- Type -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginEditText"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tv_type_key"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="Type:" />
+
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="Accident" />
+
+        </LinearLayout>
+
+        <!-- Severity -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginEditText"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tv_severity_key"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="Severity:" />
+
+            <TextView
+                android:id="@+id/tv_severity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/text_body_size"
+                tools:text="Critical" />
+
+        </LinearLayout>
+
+        <!-- Location -->
+        <ImageView
+            android:id="@+id/iv_where_report_summary"
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin"
+            android:scaleType="fitCenter"
+            tools:src="@mipmap/human_body_man_filled" />
+
+
+    </LinearLayout>
+</ScrollView>

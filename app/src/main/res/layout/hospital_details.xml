@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorLayoutBackground"
+    android:padding="@dimen/paddingEditText"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="2dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_hospital"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                tools:src="@drawable/p4"
+                android:scaleType="centerCrop"/>
+            <!--Title & Rating-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="7">
+
+                <TextView
+                    android:id="@+id/hospital_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:maxLines="3"
+                    android:padding="@dimen/paddingEditText"
+                    android:text="Family Medical Practice"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_subheading_size"
+                    android:textStyle="bold"
+                    android:tooltipText="@string/app_name"
+                    tools:text="Family Medical Practice" />
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2">
+
+                    <RatingBar
+                        android:id="@+id/hospital_rating"
+                        style="?attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:isIndicator="true"
+                        android:max="5"
+                        android:numStars="5"
+                        android:rating="3"
+                        android:stepSize="0.1"
+                        android:theme="@style/RatingBar"
+                        tools:rating="3.5" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <!-- distance -->
+            <TextView
+                android:id="@+id/hospital_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/paddingEditText"
+                android:drawableStart="@drawable/ic_distance_rv"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/paddingEditText"
+                android:paddingEnd="@dimen/paddingEditText"
+                android:paddingBottom="@dimen/paddingEditText"
+                android:text="14.7 km"
+                android:textSize="@dimen/text_body_size"
+                android:tooltipText="@string/app_name"
+                tools:text="14.7 km" />
+
+            <!--Address-->
+            <TextView
+                android:id="@+id/hospital_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/paddingEditText"
+                android:drawableStart="@drawable/ic_location_rv"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/paddingEditText"
+                android:paddingEnd="@dimen/paddingEditText"
+                android:paddingBottom="@dimen/paddingEditText"
+                android:textSize="@dimen/text_body_size"
+                android:tooltipText="@string/app_name"
+                tools:text="201 Phạm Viết Chánh, Nguyễn Cư Trinh, Quận 1, Hồ Chí Minh, Vietnam" />
+
+            <!-- phone -->
+            <TextView
+                android:id="@+id/hospital_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/paddingEditText"
+                android:drawableStart="@drawable/ic_call_rv"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/paddingEditText"
+                android:paddingEnd="@dimen/paddingEditText"
+                android:paddingBottom="@dimen/paddingEditText"
+                android:text="14.7 km"
+                android:textSize="@dimen/text_body_size"
+                android:tooltipText="@string/app_name"
+                tools:text="(+84) 1226344797" />
+
+            <!-- email -->
+            <TextView
+                android:id="@+id/hospital_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/paddingEditText"
+                android:drawableStart="@drawable/ic_email_rv"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/paddingEditText"
+                android:paddingEnd="@dimen/paddingEditText"
+                android:paddingBottom="@dimen/paddingEditText"
+                android:text="14.7 km"
+                android:textSize="@dimen/text_body_size"
+                android:tooltipText="@string/app_name"
+                tools:text="hospital@emailofthe.vn" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btn_call"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/call"
+                    android:textColor="@color/colorPrimary"
+                    android:theme="@style/MyButton"
+                    android:drawableStart="@drawable/ic_call"
+                    android:drawablePadding="@dimen/paddingEditText"/>
+
+                <Button
+                    android:id="@+id/btn_directions"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/directions"
+                    android:textColor="@color/colorSecondaryText"
+                    android:drawableStart="@drawable/ic_directions"
+                    android:drawablePadding="@dimen/paddingEditText"
+                    android:theme="@style/MyButton" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>

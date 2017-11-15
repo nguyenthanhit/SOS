@@ -4,5 +4,4 @@
   
   Here is demo
   [img]https://i.imgur.com/NWcVMKb.gif[/img]
-<img src='https://i.imgur.com/NWcVMKb.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
  

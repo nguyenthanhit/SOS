@@ -3,6 +3,6 @@
   generate a bilingual report to pass the language barrier.
   
   Here is demo
-  [Imgur](https://i.imgur.com/NWcVMKb.gifv)
+  [img]https://i.imgur.com/NWcVMKb.gif[/img]
 <img src='https://i.imgur.com/NWcVMKb.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
  
